@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: "Kedebideri", sans-serif;
+}
+.logo {
+  width: 60px;
+  border-radius: 50%;
+}
+nav {
+  height: 80px;
+  background-color: #006da8ba;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+#hero {
+  background-image: url("./images/cover.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+#about {
+  background-color: #f0f8ff;
+  padding: 100px 20px;
+  text-align: center;
+}
+.aboutContentSec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.aboutContent {
+  color: #f0f8ff;
+  border: 5px #006da8 solid;
+  background-color: #006da8;
+  padding: 15px;
+  width: 40%;
+  flex-grow: 1;
+  border-radius: 12px;
+}
+#about h2 {
+  color: #006da8;
+  font-size: 35px;
+}
+#about h4 {
+  color: #f0f8ff;
+  font-size: 28px;
+}
+#about h3 {
+  margin-bottom: 50px;
+}
+
+#services {
+  background-color: #ffffff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#services h2 {
+  color: #006da8;
+  font-size: 35px;
+}
+
+.servicesIntro {
+  font-size: 18px;
+  margin: 10px auto 40px;
+}
+
+.servicesContentSec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.serviceBox {
+  border: 5px #006da8 solid;
+  padding: 15px;
+  width: 40%;
+  border-radius: 12px;
+  background-color: #f0f8ff;
+  flex-grow: 1;
+}
+#contact {
+  background-color: #f0f8ff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #006da8;
+  font-size: 35px;
+}
+
+#contact h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+}
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.rightContact {
+  width: 20%;
+}
+.leftContact {
+  width: 50%;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 3px solid #006da8;
+}
+
+.contactForm button {
+  padding: 12px;
+  background-color: #006da8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+footer {
+  background-color: #006da8;
+  color: white;
+  text-align: center;
+  padding: 35px 0;
+  font-size: 14px;
+}

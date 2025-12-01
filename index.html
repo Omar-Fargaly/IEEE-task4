@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kedebideri:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="./images/logo.jpg" alt="IEEE" />
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="hero"></section>
+
+    <section id="about">
+      <div>
+        <h2>About Our Front-end</h2>
+        <p>
+          We are the IEEE Front-End Track team, dedicated to helping students
+          become skilled front-end developers. Our team provides interactive
+          sessions, hands-on tasks, and mentorship to guide you through learning
+          modern web development.
+        </p>
+
+        <div class="aboutContentSec">
+          <div class="aboutContent">
+            <h4>Interactive Sessions</h4>
+            <p>Weekly lectures to learn HTML, CSS, JavaScript, and React.js.</p>
+          </div>
+          <div class="aboutContent">
+            <h4>Hands-on Tasks</h4>
+            <p>
+              Practical assignments and mini-projects to apply what you learn.
+            </p>
+          </div>
+          <div class="aboutContent">
+            <h4>Mentorship</h4>
+            <p>Continuous support and guidance from experienced developers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div>
+        <h2>Our Services</h2>
+        <h3 class="servicesIntro">
+          We provide full support to help students grow and improve during the
+          front-end learning journey.
+        </h3>
+
+        <div class="servicesContentSec">
+          <div class="serviceBox">
+            <h4>Technical Support</h4>
+            <p>
+              We help you solve coding issues, explain concepts, and guide you
+              step by step.
+            </p>
+          </div>
+
+          <div class="serviceBox">
+            <h4>Code Reviews</h4>
+            <p>
+              We review your tasks and give feedback to make your code cleaner
+              and more professional.
+            </p>
+          </div>
+
+          <div class="serviceBox">
+            <h4>Learning Roadmaps</h4>
+            <p>
+              Clear, organized paths showing exactly what to learn from zero to
+              advanced.
+            </p>
+          </div>
+
+          <div class="serviceBox">
+            <h4>Responsive Website Building</h4>
+            <p>
+              We help students build complete responsive websites using modern
+              front-end technologies and clean, professional layouts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <h3>
+        If you have any questions about the Front-End Track, feel free to reach
+        out.
+      </h3>
+      <div class="contactContainer">
+        <div class="leftContact">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3455.490288051633!2d31.4319133!3d29.9940753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583cbc68d4d2c5%3A0x383b90a6abbd8e85!2s429%20Street%209%2C%20New%20Cairo%201%2C%20Cairo%20Governorate%204722266!5e0!3m2!1sen!2seg!4v1764611808943!5m2!1sen!2seg"
+            width="100%"
+            height="350"
+            style="border: 0; border-radius: 12px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+
+        <div class="rightContact">
+          <form class="contactForm">
+            <label for="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+
+            <label for="message"></label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              placeholder="Your Message"
+              required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 IEEE Front-End Track. by Eman Ayman.</p>
+    </footer>
+  </body>
+</html>
